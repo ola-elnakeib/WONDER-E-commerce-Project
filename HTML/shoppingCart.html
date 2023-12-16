@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder | Your Favorite Furniture Website</title>
+
+    <!-- <link rel="stylesheet" href="../CSS/bootstrap.min.css"> -->
+
+
+    <link rel="stylesheet" href="../CSS/share.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/shoppingCart.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <header>
+            <div style="float: left;">
+                <div class="logo">
+                    <a href="#"><img src="../Img/wonder_logo.png" alt="wonder_logo" class="header_logo" width="290px"
+                            style="padding: 5px 0 0 5px;"></a>
+                </div>
+
+                <nav class="nav">
+                    <div class="nav-tabs">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="shop.html" class="nav-link">Shop</a>
+                        <a href="#" class="nav-link">About Us</a>
+                        <a href="#" class="nav-link">Contact Us</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="nav-icons">
+                <button><img src="../Img/personPage.png" alt="person" class="persn" width="25px"></button>
+                <button><img src="../Img/favorite.png" id="favIcon" alt="favorite" class="favorite"width="25px"></button><!-- new -->
+                <button ><img src="../Img/cart.png" id="cart_ICON" alt="cart" class="cart_ICON" width="25px"></button>
+                <button><img src="../Img/logout.png" alt="logout" id="logout" width="25px"></button>
+                
+                   
+            </div>
+        </header>
+    </div>
+
+    <!-- ------------------------------------------------ -->
+    <div class="wrapper">
+        <h1 >Shopping Cart</h1>
+
+    <table class="add-to-cart">
+        <thead class="cart-header">
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="cart-item">
+                <td>
+                    <img src="../Img/b4.jpg" alt="Product 1">
+                    <br>
+                    <span style="text-align: center;" class="cart-item-name">Bed</span>
+                </td>
+                <td class="text">$19.99</td>
+                <td class="text">1</td>
+                <td class="text">$19.99</td>
+            </tr>
+            <tr class="cart-item">
+                <td>
+                    <img src="../Img/a1.jpg" alt="Product 2">
+                    <br>
+                    <span style="text-align: center;" class="cart-item-name">Vase</span>
+                </td>
+                <td class="text">$29.99</td>
+                <td class="text">2</td>
+                <td class="text">$59.98</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="Total">
+        <div class="cart-total">
+            Total: <span>$79.97</span>
+        </div>
+
+        <div class="cart-actions">
+            <button onclick="location.href='checkOut.html'">Checkout</button>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- ---------------------------------------------- -->
+    <div class="footer">
+        <div class="footer-left">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-middle">
+            <a href="#"><img src="../Img/wonder_logo.png" alt="Wonder_logo" class="footer_logo"> </a>
+            <p class="footer-copyright text-uppercase">© WONDER 2023. All rights reserved.</p>
+        </div>
+
+        <div class="footer-right">
+            <div class="contact-us">
+                <p class="location"><span><i class='fas fa-map-marker-alt'
+                            style="padding-right: 10px;"></i></span>ITI-Minia, Wonder 2023</p>
+                <p class="tele"><span><i class='fas fa-phone' style="padding-right: 10px;"></i></span>+02 123-456-7890
+                </p>
+            </div>
+            <div class="social-media">
+                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" class="github"><i class="fab fa-github"></i></a>
+                <a href="" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- start scroll up  -->
+    <div class="scroll-up" onclick="scrollToTop()">
+        <div class="scroll-up-icon"><i class="fa fa-arrow-up"></i></div>
+    </div>
+    <!-- end scroll up  -->
+    
+    <script src="../JS/addtoCart.js"></script><!-- new -->
+</body>
+
+</html>

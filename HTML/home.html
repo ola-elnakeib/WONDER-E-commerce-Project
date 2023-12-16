@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder | Your Favorite Furniture Website</title>
+
+    <link rel="stylesheet" href="../CSS/share.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/addtoCart.css">
+
+    <!-- sidebar  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- box icon --> <!-- new -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+
+
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <header>
+            <div style="float: left;">
+                <div class="logo">
+                    <a href="#"><img src="../Img/wonder_logo.png" alt="wonder_logo" class="header_logo" width="290px"
+                            style="padding: 5px 0 0 5px;"></a>
+                </div>
+
+                <nav class="nav">
+                    <div class="nav-tabs">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="shop.html" class="nav-link">Shop</a>
+                        <a href="#" class="nav-link">About Us</a>
+                        <a href="#" class="nav-link">Contact Us</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="nav-icons">
+                <button><img src="../Img/personPage.png" alt="person" class="persn" width="25px"></button>
+                <button><img src="../Img/favorite.png" id="favIcon" alt="favorite" class="favorite"width="25px"></button><!-- new -->
+                <button ><img src="../Img/cart.png" id="cart_ICON" alt="cart" class="cart_ICON" width="25px"></button>
+                <button><img src="../Img/logout.png" alt="logout" id="logout" width="25px"></button>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- -----------side bar------------------------------------- -->
+    <!-- new -->
+    <!-- CART -->
+    <!-- NAV -->
+    <div class="nav-container">
+        <!-- CART ICON -->
+        <!-- <button id="cart_ICON"><img src="../Img/cart.png" alt="cart" class="cart_ICON" width="25px"></button> -->
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+
+            <!-- CONTENT -->
+            <div class="cart-content">
+                <!-- TEST BOX -->
+                <div class="cart-box">
+                    <img src="../Img/b1.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        
+                        <div class="cart-product-title">CHAIR</div>
+                        <div class="cart-price">$25.04</div> 
+                        <input style="width: 30px;" type="number" value="1"class="cart-quantity">
+                        <!-- REMOVE CART -->
+                        </div>
+                        <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+            </div>
+            <!-- TOTAL -->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$20</div>
+            </div>
+            <!-- BUY BUTTON -->
+            <div style="text-align: left;" class="Total">
+                <div id="btn-buy" style="text-align: left;" class="cart-actions" class="Total">
+                    <button id="check-btn" style="text-align: left;" onclick="location.href='shoppingCart.html'">View Chart</button>
+                </div>
+            </div>
+            <!-- CART CLOSE -->
+            <a href="#" id="cart-close" class="close-sidebar">&times;</a>
+        </div>
+    </div>
+    <!-- new -->
+
+
+
+    <section class="cover">
+        <div class="container">
+            <img id="slider1" class="slider1" src="../Img/slider1.jpg" alt="Salon">
+            <div class="caption">
+                <h6>_____ TRENDING 2023</h6>
+                <h1>FURNITURE INTERIOR DESIGNS</h1>
+                <p>Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum <br> dolor sit amet consectetur adipisicing
+                    elit<br></p>
+                <a href="shop.html" class="buy-now">BUY NOW</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="banner-container">
+        <div class="banner-left">
+            <img src="../Img/l3.jpg" alt="Left Image">
+        </div>
+        <div class="banner-right">
+            <div class="right-image">
+                <img src="../Img/a1.jpg" alt="Right Image 1">
+            </div>
+            <div class="right-image">
+                <img src="../Img/a1.jpg" alt="Right Image 1">
+            </div>
+            <div class="right-image">
+                <img src="../Img/a1.jpg" alt="Right Image 1">
+            </div>
+            <div class="right-image">
+                <img src="../Img/a1.jpg" alt="Right Image 1">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- best selling products -->
+    <div class="best-selling">
+        <h1>BEST SELLING PRODUCTS</h1>
+        <div class="collections">
+            <ul class="coll-tabs">
+                <li><a href="" class="filter-btn active" data-category="all" id="all">all</a></li>
+                <li><a href="" class="filter-btn" data-category="bedroom" id="bedroom">bed room</a></li>
+                <li><a href="" class="filter-btn" data-category="livingRoom" id="livingRoom">living room</a></li>
+                <li><a href="" class="filter-btn" data-category="accessories" id="accessories">accessories</a></li>
+                <li><a href="" class="filter-btn" data-category="office" id="office">office</a></li>
+            </ul>
+        </div>
+        <div class="productsContainer"></div>
+    </div>
+
+
+
+    <div class="about">
+        <h1 class="section-title">Wonder </h1>
+        <p>When you start with a portrait and search for a pure form, a clear volume, through successive eliminations, you arrive inevitably at the egg. Likewise, starting with the egg and following the same process in reverse, one finishes with the portrait.</p>
+    </div>
+
+
+    <div class="sale">
+        <h2 class="sale-title">LIVING ROOM FURNITURE<br><span>Discount 50%</span></h2>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-left">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-middle">
+            <a href="#"><img src="../Img/wonder_logo.png" alt="Wonder_logo" class="footer_logo"> </a>
+            <p class="footer-copyright text-uppercase">© WONDER 2023. All rights reserved.</p>
+        </div>
+
+        <div class="footer-right">
+            <div class="contact-us">
+                <p class="location"><span><i class='fas fa-map-marker-alt'
+                            style="padding-right: 10px;"></i></span>ITI-Minia, Wonder 2023</p>
+                <p class="tele"><span><i class='fas fa-phone' style="padding-right: 10px;"></i></span>+02 123-456-7890
+                </p>
+            </div>
+            <div class="social-media">
+                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" class="github"><i class="fab fa-github"></i></a>
+                <a href="" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- start scroll up  -->
+    <div class="scroll-up" onclick="scrollToTop()">
+        <div class="scroll-up-icon"><i class="fa fa-arrow-up"></i></div>
+    </div>
+    <!-- end scroll up  -->
+
+
+    
+    <script src="../JS/home.js"></script>
+
+    <script src="../JS/addtoCart.js"></script><!-- new -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>

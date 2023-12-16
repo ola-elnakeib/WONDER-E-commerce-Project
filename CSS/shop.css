@@ -1,0 +1,41 @@
+
+.content-container {
+    padding-top: 10rem;
+    
+}
+
+.filter {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.our-product {
+    color: #141F46;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category,
+.price {
+    margin-bottom: 20px;
+}
+
+.select-category,
+.select-sort {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

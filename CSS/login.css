@@ -1,0 +1,32 @@
+.formDiv {
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    margin-right: 10px;
+    margin-bottom: 18px;
+}
+
+.checkbox>label {
+    font-size: 16px;
+}
+
+.no-account {
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.inputContainer .error {
+    margin-bottom: 25px;
+}

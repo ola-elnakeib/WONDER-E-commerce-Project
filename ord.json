@@ -1,0 +1,38 @@
+{
+  "orders":[
+    {
+      "orderId": 1,
+      "customerName": "John Doe",
+      "products": [
+        {
+          "productId": 101,
+          "productName": "Product A",
+          "quantity": 2,
+          "price": 10.99
+        },
+        {
+          "productId": 102,
+          "productName": "Product B",
+          "quantity": 1,
+          "price": 19.99
+        }
+      ],
+      "orderDate": "2023-12-10",
+      "status": "Pending"
+    },
+    {
+      "orderId": 2,
+      "customerName": "Jane Smith",
+      "products": [
+        {
+          "productId": 201,
+          "productName": "Product C",
+          "quantity": 3,
+          "price": 7.99
+        }
+      ],
+      "orderDate": "2023-12-11",
+      "status": "Confirmed"
+    }
+  ]
+}

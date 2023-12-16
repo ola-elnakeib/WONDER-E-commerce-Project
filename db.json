@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "ola",
+      "email": "olaelnakeib@gmail.com",
+      "password": "Ola@1234",
+      "phoneNum": "01288567639",
+      "role": "admin",
+      "flag": 1
+    },
+    {
+      "id": 2,
+      "username": "fatma",
+      "email": "Kamelfatmamohamed@gmail.com",
+      "password": "Fatma@1234",
+      "phoneNum": "01288567699",
+      "role": "admin",
+      "flag": 1
+    },
+    {
+      "id": 3,
+      "username": "khadega",
+      "email": "khadegaalaaeldeen84@gmail.com",
+      "password": "khadega@1234",
+      "phoneNum": "01288567688",
+      "role": "admin",
+      "flag": 1
+    },
+    {
+      "id": 4,
+      "username": "gigi",
+      "email": "gigialaa19@gmail.com",
+      "password": "Gigi@1234",
+      "phoneNum": "01288567739",
+      "role": "customer",
+      "flag": 0
+    },
+    {
+      "id": 5,
+      "username": "yosra",
+      "email": "yosraelnakeib@gmail.com",
+      "password": "Yosra@1234",
+      "phoneNum": "01203341475",
+      "role": "customer",
+      "flag": 0
+    }
+  ]
+}

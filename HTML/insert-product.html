@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/insertProduct.css">
+    </head>
+    
+    <body>
+        <div class="main">
+            <form class="prod">
+    
+                <h3>Add A New Product and Category</h3>
+                <label for="productcode">Product Id</label>
+                </br>
+                <input type="text" name="productcode" id="productcode" placeholder="Enter product code" required autofocus>
+    
+                <span id="product_IDError" class="error"></span>
+                </br>
+    
+                <label for="nameproduct">productName</label> </br><input id="nameproduct" type="text" required
+                    placeholder="Enter The Product Name">
+                <span id="productNameError" class="error"></span>
+                </br>
+    
+                <label for="Category">Category Name</label> </br><input type="text" id="Category" required
+                    placeholder="Enter The Category"><span id="categoryNameError" class="error"></span>
+                </br>
+                <label for="price">price</label> </br><input id="price" type="number" required
+                    placeholder="Enter The Product Price"> <span id="productPriceError" class="error"></span>
+                </br>
+    
+                <label for="counter">Counter</label> </br> <input id="counter" type="number" required
+                    placeholder="Number of products to add">
+    
+                <!-- <div><input type="file" id="file" name="choose-file" accept="image/*" /></div> -->
+                <div class="divright">
+                    <div><label for="discription">Description :</label></br><textarea name="descr" id="discription"
+                            cols="60" rows="5"></textarea></div>
+                    <div> <button  id="Add" class="btn">Add Product</button></div>
+                </div>
+                <div id="deleteall"></div>
+        </form>
+
+    </div>
+    <!-- <div class="table"> -->
+    <table>
+        <tr>
+            <th>Product_Id</th>
+            <th>Product Name</th>
+            <th>Category Name</th>
+            <th>Product Price</th>
+            <th>product discription</th>
+            <th>Action </th>
+        </tr>
+        <tbody id="tboady">
+            <tr>
+                <td>img</td>
+                <td>phone</td>
+                <td>123</td>
+                <td>mobile</td>
+                <td>klaaaam</td>
+                <td claass="tdAction">
+                    <button id="update">Update</button>
+                    <button id="delete">Delete</button>
+                </td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+
+    </div>
+
+
+    <script src="../JS/insert-product.js"></script>
+</body>
+
+</html>

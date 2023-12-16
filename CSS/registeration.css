@@ -1,0 +1,162 @@
+/* fonts {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+} */
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    margin: 1rem 2rem 5rem;
+    height: 15vh;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+.nav-tabs {
+    padding: 3rem;
+}
+
+.nav-tabs>.nav-link {
+    text-decoration: none;
+    padding: 0 2rem;
+    font-size: 18px;
+}
+
+.nav-tabs>.nav-link:hover,
+.nav-tabs>.nav-link:focus {
+    text-decoration: underline;
+    color: #2e2d2d;
+}
+
+
+.nav-tabs>.nav-link,
+label,
+input {
+    font-weight: 500;
+    color: #2e2d2d;
+}
+
+.formDiv {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+}
+
+
+label,
+input {
+    font-size: 17px;
+}
+
+label {
+    padding-bottom: 15px;
+}
+
+input {
+    width: 25rem;
+    display: block;
+    height: 45px;
+    border: 2px solid #d6d3d3;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+
+input[type="submit"] {
+    background-color: #141F46;
+    border-color: #141F46;
+    color: white;
+    height: 55px;
+    width: 100%;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.inputContainer .error {
+    color: #ff3860;
+    font-size: 14px;
+    height: 15px;
+    margin-bottom: 50px;
+    width: 25rem;
+}
+
+.inputContainer.error .input-control {
+    border-color: #ff3860;
+}
+
+.inputContainer.success .input-control {
+    border-color: #09c372;
+}
+
+
+.footer {
+    background-color: #e4e4e4;
+    height: 40vh;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left>a,
+.footer-middle>p,
+.social-media>a {
+    font-weight: 500;
+    color: #2e2d2d;
+}
+
+.footer-left {
+    margin-left: 7rem;
+}
+
+.footer-left>a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0;
+    font-size: 18px;
+}
+
+.footer-left>a:hover {
+    text-decoration: underline;
+    color: #2e2d2d;
+}
+
+.footer-middle {
+    text-align: center;
+}
+
+.footer-right {
+    margin-right: 7rem;
+}
+
+.social-media {
+    font-size: 20px;
+}
+
+.social-media:first-child {
+    margin-bottom: 2rem;
+}
+
+
+.facebook,
+.github {
+    margin-right: 2rem;
+}
+
+.facebook:hover {
+    color: #3B5998;
+}
+
+.linkedin:hover {
+    color: #17a2b8;
+}

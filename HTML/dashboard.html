@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, 
+				initial-scale=1.0">
+	<title>Wonder</title>
+	
+	<link rel="stylesheet" href="../CSS/dashboard.css">
+	
+
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+	
+	<header>
+		<div class="logosec">
+			<div class="logo"><button id="btn11" onclick="window.open('home.html','_blank')">Wonder</button></div>
+			<span class="material-symbols-outlined menuicn">
+				menu
+			</span>
+		</div>
+		<div class="searchbar">
+			<input type="text" placeholder="Search">
+			<div class="searchbtn">
+				<span class="material-symbols-outlined srchicn">
+					search
+				</span>
+			</div>
+		</div>
+
+		<div class="message">
+			<div class="circle"></div>
+			<span class="material-symbols-outlined noti">
+				notifications
+			</span>
+			<div class="dp">
+				<span class="material-symbols-outlined acc">
+					account_circle
+				</span>
+				
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+
+			<nav class="nav">
+				<div class="nav-upper-options">
+					<div class="nav-option option1">
+						<span class="material-symbols-outlined ">
+							dashboard
+						</span>
+						<h5> Dashboard</h5>
+					</div>
+
+					<div class="nav-option logout">
+						<span class="material-symbols-outlined">
+							subject
+						</span>
+						<h5>
+							<!-- <a href="../HTML/imageproduct.html">insert product</a> -->
+							<button  onclick="window.open('imageproduct.html','_self')">insert product</button>
+							</h5>
+					</div>
+
+					
+					<div class="nav-option option5">
+						<span class="material-symbols-outlined">
+							category
+						</span>
+						<h5>
+							<!-- <a href="../HTML/insert-product.html">Add Category</a> -->
+							<button onclick="window.open('insert-product.html','_self')">Add Category</button>
+							</h5>
+					</div>
+
+					<div class="nav-option option3">
+						
+						<span class="material-symbols-outlined   ">
+							settings
+						</span>
+						<h5> 
+							<button  onclick="window.open('/HTML/ordees.html','_self')">Order Mangment</button>
+							</h5>
+					</div>
+
+					
+					<div class="option2 nav-option">
+						<span class="material-symbols-outlined  ">
+							groups
+						</span>
+						<h5> Customers</h5>
+					</div>
+
+					
+					<div class="nav-option option4">
+						
+						<span class="material-symbols-outlined  ">
+							lock</span>
+						<h5> Password</h5>
+					</div>
+
+
+					<div class="nav-option option6">
+						<span class="material-symbols-outlined ">
+							manage_accounts
+						</span>
+						<h5> Manage Users</h5>
+					</div>
+
+					<div class="nav-option logout">
+						<span class="material-symbols-outlined  ">
+							logout
+						</span>
+						<h5> Logout</h5>
+					</div>
+					
+
+					
+
+
+
+
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+			<div class="searchbar2">
+				<input type="text" name="search" id="" placeholder="Search">
+				<div class="searchbtn">
+					<span class="material-symbols-outlined srchicn">
+						search
+					</span>
+				</div>
+			</div>
+
+			<div class="box-container">
+
+				<div class="box box1">
+					<div class="text">
+						<h2 class="topic-heading">Sales </h2>
+						<h2 class="topic">1300</h2>
+
+					</div>
+
+					<span class="material-symbols-outlined shopping_cart">
+						shopping_cart
+					</span>
+				</div>
+
+				<div class="box box2">
+					<div class="text">
+						<h2 class="topic-heading ">Revenue</h2>
+						<h2 class="topic Revenue">$17000</h2>
+					</div>
+
+					<span class="material-symbols-outlined">
+						attach_money
+					</span>
+				</div>
+
+				<div class="box box3">
+					<div class="text">
+						<h2 class="topic-heading">Customers</h2>
+						<h2 class="topic">120</h2>
+					</div>
+
+					<span class="material-symbols-outlined">
+						group
+					</span>
+				</div>
+			</div>
+
+
+
+			
+			<table id="productTable">
+				<thead>
+				  <tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Image</th>
+					<th>Category</th>
+					<th>Price</th>
+					<th>Description</th>
+					<th>Stock Quantity</th>
+				  </tr>
+				</thead>
+				<tbody></tbody>
+			  </table>
+
+</div>
+		</div>
+		<script src="../JS/dashboard.js"></script>
+</body>
+
+</html>

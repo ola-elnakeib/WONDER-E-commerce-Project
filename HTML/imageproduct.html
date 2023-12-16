@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../CSS/imageproduct.css">
+</head>
+
+<body>
+
+
+    <form id="categoryForm">
+        <h2>Add New Product</h2>
+        <div class="div1"><label for="categoryCode">Product Code :</label> <input type="text" id="categoryCode"></div>
+        <div class="div2"><label for="categoryName">Product Name :</label>
+            <input type="text" id="categoryName" required>
+        </div>
+        <div class="div3"><label for="categoryImage">Product Image:</label>
+            <input type="file" id="categoryImage" accept="image/*" required>
+        </div>
+        <div class="div4"> <button id="btn1" type="button" onclick="addCategory()">Add Category</button>
+            <button id="btn2" onclick="deleteAll()"> Delete All</button>
+        </div>
+    </form>
+
+
+
+    <table id="categoryTable">
+        <thead>
+            <tr>
+                <th>Product code </th>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+        </tbody>
+
+    </table>
+
+    <script src="../JS/imageproduct.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="file" id="file-input-element">
+
+<script>
+
+const inputEl = document.getElementById('file-input-element');
+// Gets input element
+
+inputEl.addEventListener('change' , () => {
+// Listens for new input file
+
+    const file = inputEl.files[0]; 
+    // Gets file from input element
+
+    const fr = new FileReader();
+    // Creates new FileReader object
+
+    fr.readAsDataURL(file);
+    // Set FileReader to output data as URL string
+
+    fr.addEventListener('load', () => {
+        // Waits for file reading to be complete
+
+        const url = fr.result
+        // Save result
+        
+        const img = new Image();
+        img.src = url;
+        document.body.appendChild(img);
+        // Make URL src of image and append to DOM
+
+    })
+
+})
+inputEl.addEventListener('change' , () => {
+    const file = inputEl.files[0]; 
+    const fr = new FileReader();
+    fr.readAsDataURL(file);
+
+    fr.addEventListener('load', () => {
+        const url = fr.result
+        localStorage.setItem('image', url);
+        // Saves image to localStorage
+    })
+});
+</script>
+</body>
+</html>  -->

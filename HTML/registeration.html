@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder | Your Favorite Furniture Website</title>
+
+    <link rel="stylesheet" href="../CSS/share.css">
+    <link rel="stylesheet" href="../CSS/registeration.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="../Img/wonder_logo.png" alt="wonder_logo" class="header_logo"></a>
+            </div>
+
+            <nav class="nav">
+                <div class="nav-tabs">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">Shop</a>
+                    <a href="#" class="nav-link">About Us</a>
+                    <a href="#" class="nav-link">Contact Us</a>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="formDiv" >
+        <form id="regForm">
+            <div class="inputContainer">
+                <label for="username">Username</label><br>
+                <input type="text" name="username" id="username" class="input-control">
+                <div class="error"></div>
+            </div>
+
+            <div class="inputContainer">
+                <label for="email">Email Address</label><br>
+                <input type="text" name="email" id="email" class="input-control">
+                <div class="error"></div>
+            </div>
+
+            <div class="inputContainer">
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" class="input-control">
+                <div class="error"></div>
+            </div>
+
+            <div class="inputContainer">
+                <label for="phoneNum">Phone Number</label><br>
+                <input type="tel" name="phoneNum" id="phoneNum" class="input-control">
+                <div class="error"></div>
+            </div>
+
+            <div class="inputContainer">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footer-middle">
+            <a href="#"><img src="../Img/wonder_logo.png" alt="Wonder_logo" class="footer_logo"> </a>
+            <p class="footer-copyright text-uppercase">© WONDER 2023. All rights reserved.</p>
+        </div>
+
+        <div class="footer-right">
+            <div class="contact-us">
+                <p class="location"><span><i class='fas fa-map-marker-alt'
+                            style="padding-right: 10px;"></i></span>ITI-Minia, Wonder 2023</p>
+                <p class="tele"><span><i class='fas fa-phone' style="padding-right: 10px;"></i></span>+02 123-456-7890
+                </p>
+            </div>
+            <div class="social-media">
+                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" class="github"><i class="fab fa-github"></i></a>
+                <a href="" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <!-- <script src="../JS/email.min.js"></script> -->
+        <script>(function () { emailjs.init("zluFz3Pl5GRY2TwJe"); })();</script>
+        <script src="../JS/registeration.js"></script>
+</body>
+
+</html>

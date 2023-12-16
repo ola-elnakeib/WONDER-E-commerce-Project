@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Modern Coffee Table",
+      "image": "l3.jpg",
+      "category": "livingRoom",
+      "price": 199.99,
+      "description": "A stylish and modern coffee table for your living room.",
+      "stockQuantity": 20
+    },
+    {
+      "id": 2,
+      "name": "Queen Bed Frame",
+      "image": "b1.jpg",
+      "category": "bedroom",
+      "price": 799.99,
+      "description": "Sturdy queen-sized bed frame for a good night's sleep.",
+      "stockQuantity": 10
+    },
+    {
+      "id": 3,
+      "name": "Decorative Vase Set",
+      "image": "a1.jpg",
+      "category": "accessories",
+      "price": 49.99,
+      "description": "Set of decorative vases to enhance the aesthetics of your space.",
+      "stockQuantity": 25
+    },
+    {
+      "id": 4,
+      "name": "Bookshelf",
+      "image": "o1.jpg",
+      "category": "office",
+      "price": 179.99,
+      "description": "Stylish bookshelf to organize and display your book collection.",
+      "stockQuantity": 15
+    },
+    {
+      "id": 5,
+      "name": "Executive Desk",
+      "image": "o2.jpg",
+      "category": "office",
+      "price": 599.99,
+      "description": "Impressive executive desk for your home office.",
+      "stockQuantity": 12
+    },
+    {
+      "id": 6,
+      "name": "Wall Art Canvas Prints",
+      "image": "a3.jpg",
+      "category": "accessories",
+      "price": 79.99,
+      "description": "Elevate your walls with a set of captivating canvas prints.",
+      "stockQuantity": 15
+    },
+    {
+      "id": 7,
+      "name": "Nightstand",
+      "image": "b4.jpg",
+      "category": "bedroom",
+      "price": 129.99,
+      "description": "Convenient nightstand for keeping essentials by your bedside.",
+      "stockQuantity": 20
+    },
+    {
+      "id": 8,
+      "name": "Leather Sofa",
+      "image": "l2.jpg",
+      "category": "livingRoom",
+      "price": 699.99,
+      "description": "Comfortable leather sofa for a luxurious living room experience.",
+      "stockQuantity": 10
+    },
+    {
+      "id": 9,
+      "name": "Cozy Armchair",
+      "image": "l4.jpg",
+      "category": "livingRoom",
+      "price": 299.99,
+      "description": "A comfortable armchair to complete your living room setup.",
+      "stockQuantity": 12
+    },
+    {
+      "id": 10,
+      "name": "Dresser with Mirror",
+      "image": "b5.jpg",
+      "category": "bedroom",
+      "price": 499.99,
+      "description": "Spacious dresser with a mirror for your bedroom storage needs.",
+      "stockQuantity": 15
+    },
+    {
+      "id": 11,
+      "name": "Throw Pillow Collection",
+      "image": "a2.jpg",
+      "category": "accessories",
+      "price": 29.99,
+      "description": "A collection of stylish throw pillows for added comfort and style.",
+      "stockQuantity": 18
+    },
+    {
+      "id": 12,
+      "name": "office Chair",
+      "image": "o3.jpg",
+      "category": "office",
+      "price": 249.99,
+      "description": "Comfortable and adjustable office chair for long work hours.",
+      "stockQuantity": 18
+    },
+    {
+      "id": 13,
+      "name": "Desk Lamp",
+      "image": "o4.jpg",
+      "category": "office",
+      "price": 49.99,
+      "description": "Illuminate your workspace with a practical desk lamp.",
+      "stockQuantity": 25
+    },
+    {
+      "id": 14,
+      "name": "Candle Holder Set",
+      "image": "a4.jpg",
+      "category": "accessories",
+      "price": 39.99,
+      "description": "Create a cozy ambiance with a set of stylish candle holders.",
+      "stockQuantity": 25
+    },
+    {
+      "id": 15,
+      "name": "Table Lamp",
+      "image": "b6.jpg",
+      "category": "bedroom",
+      "price": 69.99,
+      "description": "Add a touch of warmth with a stylish table lamp for your bedroom.",
+      "stockQuantity": 30
+    },
+    {
+      "id": 16,
+      "name": "Entertainment Center",
+      "image": "l1.jpg",
+      "category": "livingRoom",
+      "price": 449.99,
+      "description": "Sleek entertainment center for your TV and media devices.",
+      "stockQuantity": 15
+    }
+  ]
+}
